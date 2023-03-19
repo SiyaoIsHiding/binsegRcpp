@@ -13,4 +13,4 @@ jobs:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       R_KEEP_PKG_SOURCE: yes
     steps:
-      - uses: SiyaoIsHiding/R_GA_GSOC@v0.0.26
+      - uses: SiyaoIsHiding/R_GA_GSOC@v0.0.27
