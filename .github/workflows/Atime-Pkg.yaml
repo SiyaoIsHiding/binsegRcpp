@@ -9,7 +9,9 @@ name: Atime-Pkg
 jobs:
   Atime-Pkg:
     runs-on: ubuntu-latest
+    env:
+      R_KEEP_PKG_SOURCE: yes
     steps:
-      - uses: SiyaoIsHiding/R_GA_GSOC@v0.0.66
+      - uses: SiyaoIsHiding/r-asymptotic-testing@v0.0.1
         with:
           alpha: '"0.5"'
