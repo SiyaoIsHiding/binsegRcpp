@@ -15,4 +15,4 @@ jobs:
     steps:
       - uses: SiyaoIsHiding/R_GA_GSOC@v0.0.48
         with:
-          alpha: '"0.5"'
+          alpha: '"0.1"'
