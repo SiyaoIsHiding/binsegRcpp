@@ -10,6 +10,6 @@ jobs:
   Atime-Pkg:
     runs-on: ubuntu-latest
     steps:
-      - uses: SiyaoIsHiding/R_GA_GSOC@v0.0.67
+      - uses: SiyaoIsHiding/R_GA_GSOC@v0.0.68
         with:
           alpha: '"0.1"'
