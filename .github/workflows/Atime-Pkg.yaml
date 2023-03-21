@@ -15,4 +15,4 @@ jobs:
     steps:
       - uses: SiyaoIsHiding/r-asymptotic-testing@v1
         with:
-          alpha: '"0.1"'
+          alpha: '"0.5"'
